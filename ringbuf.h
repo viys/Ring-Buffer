@@ -2,7 +2,7 @@
  * @Author: yuzy 2628587386@qq.com
  * @Date: 2023-07-11 20:55:54
  * @LastEditors: yuzy 2628587386@qq.com
- * @LastEditTime: 2023-07-11 23:40:38
+ * @LastEditTime: 2023-07-12 00:06:41
  * @FilePath: \Ring-Buffer\ringbuf.h
  */
 
@@ -17,12 +17,6 @@
 typedef unsigned          char u8;
 typedef unsigned short     int u16;
 typedef unsigned           int u32;
-
-/* 宏定义 */
-#define U1_RX_SIZE  2048
-#define U1_RX_MAX   256
-
-#define URxNUM      10
 
 /* RingBuf帧地址结构体 */
 typedef struct{
